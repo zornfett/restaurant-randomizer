@@ -1,0 +1,46 @@
+* {
+	font-family: 'Oswald', sans-serif;
+	/* https://fonts.google.com/specimen/Oswald?selection.family=Oswald */
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 2em;
+}
+.inner-wrap {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.form-element {
+	float: left;
+	width: 32%;
+	margin-bottom: 2em;
+
+	outline: 1px dotted orange;
+}
+
+.form-element label {
+	display: block;
+}
+
+.form-element input {
+	width: 95%;
+	margin-left: .5em;
+	padding-left: .25em;
+}
+
+.form-element.button {
+	width: 100%;
+	text-align: center;
+}
+
+.form-element.button input {
+	width: 30%;
+	text-align: center;
+	padding-left: 0;
+}
+
+/*
+outline: 1px dotted orange;
+*/
