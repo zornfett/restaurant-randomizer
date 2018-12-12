@@ -18,6 +18,10 @@ function collectFoodInfo() {
 
 
 /*
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-
+
+https://help.github.com/articles/which-remote-url-should-i-use/
+
 window.onload = function() {
 	console.log('loadie');
 	// onclick run collectFoodInfo - https://stackoverflow.com/questions/21477717/how-to-call-a-js-function-using-onclick-event/21477793
