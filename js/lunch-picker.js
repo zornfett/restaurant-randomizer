@@ -18,9 +18,6 @@ function collectFoodInfo() {
 
 
 /*
-https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-
-
-https://help.github.com/articles/which-remote-url-should-i-use/
 
 window.onload = function() {
 	console.log('loadie');
@@ -41,4 +38,3 @@ function arrayPacker2() {
 };
 
 */
-
