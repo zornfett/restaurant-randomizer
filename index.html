@@ -8,6 +8,7 @@
 	<meta name="author" content="">
 
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/lunch-picker.css" />
 
@@ -15,12 +16,20 @@
 	</head>
 	<body onload="initThings();">
 
+	<div id="snacks" class="snowflakes" aria-hidden="true">
+		<div class="snowflake">&#127805;</div><div class="snowflake">&#129472;</div>
+		<div class="snowflake">&#127790;</div><div class="snowflake">&#127843;</div>
+		<div class="snowflake">&#127844;</div><div class="snowflake">&#127836;</div>
+		<div class="snowflake">&#129408;</div><div class="snowflake">&#127856;</div>
+		<div class="snowflake">&#127846;</div><div class="snowflake">&#127814;</div>
+		<div class="snowflake">&#127849;</div><div class="snowflake">&#127829;</div>
+	</div>
 	<div class="container">
 		<h1>click to pick a restaurant!</h1>
 			<div class="form-element button">
 				<!-- <input id="submatron" type="submit" value="submit &#127831;">	 -->
 				<button id="submatron">submit &#127831;</button>
-				<p id="displayHere" style="width: 100px; height: 30px; overflow: hidden; outline: 2px dashed blue; color: #000"></p>
+				<p id="displayHere"></p>
 			</div>			
 <!-- 		<h3>enter a new restaurant!</h3>
 		<form>
@@ -44,13 +53,9 @@
 		</form>	 -->		
 	</div>
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/taffydb/2.7.3/taffy-min.js"></script> -->
 	<script src="js/lunch-picker.js"></script>
-	<script>
-
-	</script>
 	</body>
 </html>
 
@@ -90,6 +95,8 @@ https://stackoverflow.com/questions/11773225/push-data-into-an-array-with-pair-v
 ***
 https://javascript.info/array
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections
+
 http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/
 
 https://stackoverflow.com/questions/21477717/how-to-call-a-js-function-using-onclick-event
@@ -97,6 +104,11 @@ https://stackoverflow.com/questions/21477717/how-to-call-a-js-function-using-onc
 jesus, removing the <form> tags stopped the refresh / disappearing results
 https://stackoverflow.com/questions/1878264/how-do-i-make-an-html-button-not-reload-the-page
 
+https://stackoverflow.com/questions/19030742/difference-between-innertext-and-innerhtml
+
+http://pajasevi.github.io/CSSnowflakes/
+
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style
 
  -->
 
