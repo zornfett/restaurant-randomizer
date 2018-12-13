@@ -1,4 +1,5 @@
-document.getElementById('submatron').onclick = function arrayStuffs() {
+var spinTheWheel = document.getElementById('submatron');
+spinTheWheel.onclick = function arrayStuffs() {
 	console.log('clicked');
 	// add restaurants here!
 	var setzt = new Array(
@@ -38,7 +39,6 @@ document.getElementById('submatron').onclick = function arrayStuffs() {
 	var i;
 	for (i=0;i<setzt.length;i++){
 		var restaurant = setzt[Math.floor(Math.random() * setzt.length)];
-		// var theWinner = restaurant['name'] + '\n' + restaurant['phone']  + '\n' + restaurant['menu'];
 		var name = restaurant['name'];
 		var phone = restaurant['phone'];
 		var menu = restaurant['menu'];
@@ -47,5 +47,5 @@ document.getElementById('submatron').onclick = function arrayStuffs() {
 	// snack storm!
 	var snacks = document.getElementById('snacks');
 	snacks.setAttribute("style", "display:block;");
-
+	spinTheWheel.setAttribute("style", "display:none;");
 };
