@@ -28,38 +28,3 @@ showAll.onclick = function displayList() {
 		// document.getElementById('restaurant-list').innerHTML = restaurantList;
 	}
 };
-
-// add restaurants here!
-var setzt = new Array(
-	{
-		"id":1,
-		"name":"JR's BBQ",
-		"phone":"310.837.6838",
-		"menu":"http://www.jrs-bbq.com/menu.php"
-	},
-	{
-		"id":2,
-		"name":"Rio Bravo",
-		"phone":"323.938.9858",
-		"menu":"http://elriobravorestaurant.com/?page_id=329"
-	},
-	{
-		"id":3,
-		"name":"Delicious Pizza",
-		"phone":"323.424.3014",
-		"menu":"https://deliciouspizza.com/media/DeliciousPizzaMenu-WA.pdf"
-	},
-	{
-		"id":4,
-		"name":"Open Face",
-		"phone":"855.676.3223",
-		"menu":"https://openfacefoodshop.com/menu/"
-	}
-	
-	// {
-	// 	"id":666,
-	// 	"name":"XXXX",
-	// 	"phone":"XXXX",
-	// 	"menu":"XXXX"
-	// }
-);
