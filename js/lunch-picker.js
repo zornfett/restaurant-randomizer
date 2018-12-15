@@ -5,6 +5,7 @@ spinTheWheel.onclick = function pickAplatz() {
 	var i;
 	for (i=0;i<setzt.length;i++){
 		var restaurant = setzt[Math.floor(Math.random() * setzt.length)];
+		// https://andrew.hedges.name/experiments/random/randomness.html
 		var name = restaurant['name'];
 		var phone = restaurant['phone'];
 		var menu = restaurant['menu'];
