@@ -60,12 +60,12 @@ var setzt = new Array(
 		"phone":"323.965.0269",
 		"menu":"http://olgasnaturally.com"
 	},
-	{
-		"id":12,
-		"name":"Oriental House",
-		"phone":"310.204.6888",
-		"menu":"http://places.singleplatform.com/oriental-house-restaurant-3/menu?ref=google"
-	},
+	// {
+	// 	"id":12,
+	// 	"name":"Oriental House",
+	// 	"phone":"310.204.6888",
+	// 	"menu":"http://places.singleplatform.com/oriental-house-restaurant-3/menu?ref=google"
+	// },
 	{
 		"id":13,
 		"name":"Zankou Chicken",

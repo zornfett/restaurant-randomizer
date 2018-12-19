@@ -22,10 +22,17 @@ var showAll = document.getElementById('showAll');
 showAll.onclick = function displayList() {
 	console.log('displayList');
 
+	// console.log(setzt.toString()); um, no
+
 	var j;
 	for (j=0;j<setzt.length;j++){
-		console.log(j);
-		// var restaurantList = setzt.length;
-		// document.getElementById('restaurant-list').innerHTML = restaurantList;
-	}
+
+	};
+	// 	console.log("var J =" + " " + j);
+	// 	console.log("setzt.length =" + " " + setzt.length);
+	// 	var restaurantList = j.name + "<br>";
+	document.getElementById('restaurant-list').innerHTML = JSON.stringify(setzt);
+
+	var name = setzt[j].name;
+	console.log(name);
 };
