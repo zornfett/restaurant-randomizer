@@ -1,4 +1,7 @@
 var spinTheWheel = document.getElementById('submatron');
+var fullList = document.getElementById('restaurant-list');
+
+// pick a random foodplace
 spinTheWheel.onclick = function pickAplatz() {
 	console.log('pickAplatz');
 
@@ -15,6 +18,7 @@ spinTheWheel.onclick = function pickAplatz() {
 	var snacks = document.getElementById('snacks');
 	snacks.setAttribute("style", "display:block;");
 	spinTheWheel.setAttribute("style", "display:none;");
+	fullList.setAttribute("style", "display:none;");
 };
 
 // show restaurant list
@@ -22,17 +26,9 @@ var showAll = document.getElementById('showAll');
 showAll.onclick = function displayList() {
 	console.log('displayList');
 
-	// console.log(setzt.toString()); um, no
-
-	var j;
-	for (j=0;j<setzt.length;j++){
-
-	};
-	// 	console.log("var J =" + " " + j);
-	// 	console.log("setzt.length =" + " " + setzt.length);
-	// 	var restaurantList = j.name + "<br>";
-	document.getElementById('restaurant-list').innerHTML = JSON.stringify(setzt);
-
-	var name = setzt[j].name;
-	console.log(name);
+	var restaurantList = setzt;
+	restaurantList = restaurantList.map(item => item.name).toString().replace(/,/g, ' <input type="checkbox" ><br>');
+	// restaurantList = restaurantList.map(item => item.name).toString().replace(/,/g, ' <input type="checkbox" id="' + name + '" name="' + name + '"><br>');
+	document.getElementById('restaurant-list').innerHTML = restaurantList;
+	fullList.setAttribute("style", "display:block;");
 };
