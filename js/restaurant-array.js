@@ -36,12 +36,12 @@ var setzt = new Array(
 		"phone":"800.786.1000",
 		"menu":"http://locations.in-n-out.com/55"
 	},
-	{
-		"id":8,
-		"name":"Ono Hawaiian BBQ ",
-		"phone":"(310) 202-8688",
-		"menu":"https://www.onohawaiianbbq.com"
-	},
+	// {
+	// 	"id":8,
+	// 	"name":"Ono Hawaiian BBQ ",
+	// 	"phone":"(310) 202-8688",
+	// 	"menu":"https://www.onohawaiianbbq.com"
+	// },
 	{
 		"id":9,
 		"name":"El Pollo Loco",
@@ -79,6 +79,42 @@ var setzt = new Array(
 		"menu":"https://order.tendergreens.com/menu/tender-greens-culver-city"
 	},
 	{
+		"id":15,
+		"name":"Roscoe’s Chicken and Waffles",
+		"phone":"(323) 934-4405",
+		"menu":"https://www.roscoeschickenandwaffles.com/Roscoes-Menu-Take-Out-Paper.pdf"
+	},
+	{
+		"id":16,
+		"name":"Hasiba Restaurant",
+		"phone":"[use ChowNow app]",
+		"menu":"https://www.hasibarestaurant.com/menu/"
+	},
+	{
+		"id":17,
+		"name":"Emerald Thai",
+		"phone":"310.836.6860",
+		"menu":"https://emeraldroyalthaiculvercity.com/24391"
+	},
+	{
+		"id":18,
+		"name":"Natalie Thai",
+		"phone":"310.202.7003",
+		"menu":"[use ChowNow app]"
+	},
+	{
+		"id":19,
+		"name":"Campo's",
+		"phone":"310.836.2680",
+		"menu":"https://www.camposfamousburritos.com/menu"
+	},
+	{
+		"id":20,
+		"name":"The Grain Cafe",
+		"phone":"323-931-4034",
+		"menu":"http://graincafeonline.com/menu/"
+	},
+	{
 		"id":4,
 		"name":"Open Face",
 		"phone":"855.676.3223",
@@ -92,3 +128,10 @@ var setzt = new Array(
 	// 	"menu":"XXXX"
 	// },
 );
+
+/*
+ADD:
+
+http://orderconsaboraperu.com/
+
+*/

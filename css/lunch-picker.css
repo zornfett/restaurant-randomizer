@@ -2,12 +2,14 @@
 	font-family: 'Oswald', sans-serif;
 	position: relative;
 	width: 80%;
-	margin: 0 auto;
+	margin: 12em auto 0 auto;
 }
-h1,
-h3 {
+h1 {
 	text-align: center;
 	margin-bottom: 1em;
+}
+h3 {
+	text-align: center;
 }
 .form-element {
 	/*float: left;*/
@@ -43,7 +45,7 @@ h3 {
 #results span {
 	font-family: 'Bowlby One SC', cursive;
 	/*display: block;*/
-	font-size: 3em;
+	font-size: 6em;
 	z-index: 1000;
 }
 #showAll {

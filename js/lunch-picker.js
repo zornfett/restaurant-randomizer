@@ -27,7 +27,7 @@ showAll.onclick = function displayList() {
 	console.log('displayList');
 
 	var restaurantList = setzt;
-	restaurantList = restaurantList.map(item => item.name).toString().replace(/,/g, ' <input type="checkbox" ><br>');
+	restaurantList = restaurantList.map(item => item.name).toString().replace(/,/g, '<br>'); // <input type="checkbox" > .. display as list?
 	// restaurantList = restaurantList.map(item => item.name).toString().replace(/,/g, ' <input type="checkbox" id="' + name + '" name="' + name + '"><br>');
 	document.getElementById('restaurant-list').innerHTML = restaurantList;
 	fullList.setAttribute("style", "display:block;");
