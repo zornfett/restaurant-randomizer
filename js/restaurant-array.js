@@ -88,7 +88,7 @@ var setzt = new Array(
 		"id":16,
 		"name":"Hasiba Restaurant",
 		"phone":"[use ChowNow app]",
-		"menu":"https://www.hasibarestaurant.com/menu/"
+		"menu":"https://www.hasibarestaurant.com/menu"
 	},
 	{
 		"id":17,
@@ -111,14 +111,20 @@ var setzt = new Array(
 	{
 		"id":20,
 		"name":"The Grain Cafe",
-		"phone":"323-931-4034",
-		"menu":"http://graincafeonline.com/menu/"
+		"phone":"323.931.4034",
+		"menu":"http://graincafeonline.com/menu"
+	},
+	{
+		"id":21,
+		"name":"Burgerim",
+		"phone":"323.852.3377",
+		"menu":"https://www.burgerim.com/menu"
 	},
 	{
 		"id":4,
 		"name":"Open Face",
 		"phone":"855.676.3223",
-		"menu":"https://openfacefoodshop.com/menu/"
+		"menu":"https://openfacefoodshop.com/menu"
 	}
 	
 	// {
