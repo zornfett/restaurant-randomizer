@@ -121,6 +121,12 @@ var setzt = new Array(
 		"menu":"https://www.burgerim.com/menu"
 	},
 	{
+		"id":22,
+		"name":"Con Sabor A Peru",
+		"phone":"323.936.4444",
+		"menu":"https://themenustar1.com/webspace/menus.php?code=orderconsaboraperu.com"
+	},
+	{
 		"id":4,
 		"name":"Open Face",
 		"phone":"855.676.3223",
